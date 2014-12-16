@@ -18,11 +18,24 @@
     ],
     "require": {
         "php"                          : ">=5.3.3",
-        "alchemy/binary-driver"        : "~1.5",
+        "alchemy/binary-driver"        : "dev-master#b7722240833b6e8eb41787b9361e1e12fd87faae",
         "doctrine/cache"               : "~1.0",
-        "evenement/evenement"          : "~1.0",
+        "evenement/evenement"          : "~2.0",
         "neutron/temporary-filesystem" : "~2.1, >=2.1.1"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "alchemy/binary-driver",
+                "version": "dev-master",
+                "dist": {
+                    "url": "https://github.com/intellectsoft-uk/BinaryDriver/archive/upgrade_evenement.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
     "suggest": {
         "php-ffmpeg/extras"        : "A compilation of common audio & video drivers for PHP-FFMpeg"
     },
