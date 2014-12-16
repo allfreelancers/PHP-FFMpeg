@@ -18,7 +18,7 @@
     ],
     "require": {
         "php"                          : ">=5.3.3",
-        "alchemy/binary-driver"        : "dev-master#b7722240833b6e8eb41787b9361e1e12fd87faae",
+        "alchemy/binary-driver"        : "dev-fix_evenmeter as 1.5",
         "doctrine/cache"               : "~1.0",
         "evenement/evenement"          : "~2.0",
         "neutron/temporary-filesystem" : "~2.1, >=2.1.1"
@@ -28,7 +28,7 @@
             "type": "package",
             "package": {
                 "name": "alchemy/binary-driver",
-                "version": "dev-master",
+                "version": "dev-fix_evenmeter as 1.5",
                 "dist": {
                     "url": "https://github.com/intellectsoft-uk/BinaryDriver/archive/upgrade_evenement.zip",
                     "type": "zip"
